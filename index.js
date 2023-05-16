@@ -78,6 +78,7 @@ app.post('/api/notes', (request, response) => {
   response.json(note)
 })
 
+/* server */
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
